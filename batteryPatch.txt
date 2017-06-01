@@ -161,10 +161,10 @@ into method label GSBI code_regex \(BARL, replaceall_matched begin (RECB(0x06,64
 
 into method label GSBI code_regex \(BARH, replaceall_matched begin (RECB(0xe,64), end;
 
-into method label GSBI code_regex \(B1MA, replaceall_matched begin (RECB(0x82,64), end;
-into method label _BIF code_regex \(B1MA, replaceall_matched begin (RECB(0x82,64), end;
+into method label GSBI code_regex \(B1MA, replaceall_matched begin (RECB(0x80,64), end;
+into method label _BIF code_regex \(B1MA, replaceall_matched begin (RECB(0x80,64), end;
 
-into method label GSBI code_regex \(B1DN, replaceall_matched begin (RECB(0x8A,64), end;
+into method label GSBI code_regex \(B1DN, replaceall_matched begin (RECB(0x88,64), end;
 
 into method label MHPF code_regex \(SMD0, replaceall_matched begin (RECB(0x1C,256), end;
 into method label MHPF code_regex Store\s+\(\w+,\s+SMD0\) replaceall_matched begin WECB(0x1C,256,FB4) end;
